@@ -8,6 +8,22 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Reference",
+"class": "Action",
+"language": "GDScript",
+"path": "res://Scripts/Action.gd"
+}, {
+"base": "Node",
+"class": "Actor",
+"language": "GDScript",
+"path": "res://Scripts/Actor.gd"
+} ]
+_global_script_class_icons={
+"Action": "",
+"Actor": ""
+}
+
 [application]
 
 config/name="goap-ai"
